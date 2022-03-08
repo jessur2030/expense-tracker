@@ -2,7 +2,7 @@
 
 Manage Spending and Budgeting
 
-## [Live Site](https://budget-tracker-app-jesus.netlify.app)
+## [Live Site](https://jessusrbudgettracker.netlify.app/)
 
 ## Usage
 
