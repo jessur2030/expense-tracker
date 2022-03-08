@@ -21,11 +21,11 @@ const AddBudgetModal = ({ show, handleClose }) => {
         </Modal.Header>
         <Modal.Body>
           <Form.Group className="mb-3" controlId="name">
-            <Form.Label>Name</Form.Label>
+            <Form.Label>Budget category</Form.Label>
             <Form.Control ref={nameRef} type="text" required></Form.Control>
           </Form.Group>
           <Form.Group className="mb-3" controlId="max">
-            <Form.Label>Maximum expending</Form.Label>
+            <Form.Label>Maximum budget</Form.Label>
             <Form.Control
               ref={maxRef}
               type="number"

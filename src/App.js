@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button, Container, Stack } from "react-bootstrap";
+import Header from "./components/Header";
 import AddBudgetModal from "./components/AddBudgetModal";
 import AddExpenseModal from "./components/AddExpenseModal";
 import ViewExpensesModal from "./components/ViewExpensesModal";
@@ -23,6 +24,7 @@ function App() {
   };
   return (
     <>
+      <Header />
       <Container className="my-4">
         <Stack direction="horizontal" gap="2" className="mb-4">
           <h1 className="me-auto">Budgets</h1>

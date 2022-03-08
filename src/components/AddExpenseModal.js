@@ -25,7 +25,7 @@ const AddExpenseModal = ({ show, handleClose, defaultBudgetId }) => {
         </Modal.Header>
         <Modal.Body>
           <Form.Group className="mb-3" controlId="description">
-            <Form.Label>Name</Form.Label>
+            <Form.Label>Expense</Form.Label>
             <Form.Control
               ref={descriptionRef}
               type="text"
