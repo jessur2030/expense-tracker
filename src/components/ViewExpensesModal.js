@@ -20,7 +20,7 @@ const ViewExpensesModal = ({ budgetId, show, handleClose }) => {
     <Modal show={budgetId != null} onHide={handleClose}>
       <Modal.Header closeButton>
         <Modal.Title>
-          <Stack direction="horizontal" gap="2">
+          <Stack direction="horizontal" className="justify-content-end" gap="2">
             <div>Expenses - {budget?.name}</div>
             {budgetId !== UNCATEGORIZED_BUDGET_ID && (
               <Button
