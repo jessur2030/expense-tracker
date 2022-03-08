@@ -27,11 +27,19 @@ function App() {
       <Header />
       <Container className="my-4">
         <Stack direction="horizontal" gap="2" className="mb-4">
-          <h1 className="me-auto">Budgets</h1>
-          <Button variant="primary" onClick={() => setShowAddBudgetModal(true)}>
+          <h2 className="me-auto">Budgets</h2>
+          <Button
+            variant="primary"
+            className="btn-sm"
+            onClick={() => setShowAddBudgetModal(true)}
+          >
             Add Budget
           </Button>
-          <Button variant="outline-primary" onClick={openAddExpenseModal}>
+          <Button
+            className="btn-sm"
+            variant="outline-primary"
+            onClick={openAddExpenseModal}
+          >
             Add Expense
           </Button>
         </Stack>
